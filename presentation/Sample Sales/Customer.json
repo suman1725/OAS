@@ -1,0 +1,91 @@
+{
+  "presentationTable" : {
+    "name" : "Customer",
+    "presentationColumns" : [ {
+      "name" : "CUST_KEY",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Customer.CUST_KEY"
+    }, {
+      "name" : "NAME",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Customer.NAME"
+    }, {
+      "name" : "TYPE_KEY",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Customer.TYPE_KEY"
+    }, {
+      "name" : "FST_CONTACT_DT",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Customer.FST_CONTACT_DT"
+    }, {
+      "name" : "SEGMENT_KEY",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Customer.SEGMENT_KEY"
+    }, {
+      "name" : "INCOME_LVL",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Customer.INCOME_LVL"
+    }, {
+      "name" : "STATUS_KEY",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Customer.STATUS_KEY"
+    }, {
+      "name" : "LST_ORDER_DT",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Customer.LST_ORDER_DT"
+    }, {
+      "name" : "ADDRESS_KEY",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Customer.ADDRESS_KEY"
+    }, {
+      "name" : "MARITAL_ST",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Customer.MARITAL_ST"
+    }, {
+      "name" : "PREV_MARITAL_ST",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Customer.PREV_MARITAL_ST"
+    }, {
+      "name" : "PREV_MARITAL_ST_DT",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Customer.PREV_MARITAL_ST_DT"
+    }, {
+      "name" : "BIRTH_DT",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Customer.BIRTH_DT"
+    }, {
+      "name" : "CRDT_RATE",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Customer.CRDT_RATE"
+    }, {
+      "name" : "GENDER",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Customer.GENDER"
+    }, {
+      "name" : "LTV",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Customer.LTV"
+    }, {
+      "name" : "NUM_ATTRIBUTE",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Customer.NUM_ATTRIBUTE"
+    }, {
+      "name" : "TOTAL_VALUE",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Customer.TOTAL_VALUE"
+    }, {
+      "name" : "AREA",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Customer.AREA"
+    }, {
+      "name" : "CITY",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Customer.CITY"
+    }, {
+      "name" : "COUNTRY_NAME",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Customer.COUNTRY_NAME"
+    }, {
+      "name" : "LATITUDE",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Customer.LATITUDE"
+    }, {
+      "name" : "LONGITUDE",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Customer.LONGITUDE"
+    }, {
+      "name" : "POSTAL_CODE",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Customer.POSTAL_CODE"
+    }, {
+      "name" : "REGION",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Customer.REGION"
+    }, {
+      "name" : "STATE_PROVINCE",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Customer.STATE_PROVINCE"
+    }, {
+      "name" : "STATE_PROVINCE_ABBRV",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Customer.STATE_PROVINCE_ABBRV"
+    } ],
+    "hierarchies" : [ {
+      "name" : "Cust GEO",
+      "sourceLogicalTable" : "logicalTable:Core.Dim_Customer"
+    } ]
+  }
+}

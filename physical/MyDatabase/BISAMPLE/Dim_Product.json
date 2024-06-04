@@ -1,0 +1,14 @@
+{
+  "physicalTable": {
+    "name": "Dim_Product",
+    "sourceTable": "physicalTable:MyDatabase.BISAMPLE.SAMP_PRODUCTS_D",
+    "caching": {
+      "enable": true
+    },
+    "additionalKeys": [
+      [
+        "PROD_KEY"
+      ]
+    ]
+  }
+}

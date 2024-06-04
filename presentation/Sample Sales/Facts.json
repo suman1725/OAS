@@ -1,0 +1,18 @@
+{
+  "presentationTable" : {
+    "name" : "Facts",
+    "presentationColumns" : [ {
+      "name" : "UNITS",
+      "sourceLogicalColumn" : "logicalColumn:Core.Fact_Revenue.UNITS"
+    }, {
+      "name" : "COST_FIXED",
+      "sourceLogicalColumn" : "logicalColumn:Core.Fact_Revenue.COST_FIXED"
+    }, {
+      "name" : "COST_VARIABLE",
+      "sourceLogicalColumn" : "logicalColumn:Core.Fact_Revenue.COST_VARIABLE"
+    }, {
+      "name" : "REVENUE",
+      "sourceLogicalColumn" : "logicalColumn:Core.Fact_Revenue.REVENUE"
+    } ]
+  }
+}

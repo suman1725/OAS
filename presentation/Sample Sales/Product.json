@@ -1,0 +1,66 @@
+{
+  "presentationTable" : {
+    "name" : "Product",
+    "presentationColumns" : [ {
+      "name" : "PROD_KEY",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Product.PROD_KEY"
+    }, {
+      "name" : "PROD_DSC",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Product.PROD_DSC"
+    }, {
+      "name" : "ATTRIBUTE_2",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Product.ATTRIBUTE_2"
+    }, {
+      "name" : "ATTRIBUTE_1",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Product.ATTRIBUTE_1"
+    }, {
+      "name" : "TYPE",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Product.TYPE"
+    }, {
+      "name" : "LOB",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Product.LOB"
+    }, {
+      "name" : "BRAND",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Product.BRAND"
+    }, {
+      "name" : "SEQUENCE",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Product.SEQUENCE"
+    }, {
+      "name" : "BRAND_KEY",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Product.BRAND_KEY"
+    }, {
+      "name" : "LOB_KEY",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Product.LOB_KEY"
+    }, {
+      "name" : "TYPE_KEY",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Product.TYPE_KEY"
+    }, {
+      "name" : "TOTAL_VALUE",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Product.TOTAL_VALUE"
+    } ],
+    "hierarchies" : [ {
+      "name" : "H1",
+      "sourceLogicalTable" : "logicalTable:Core.Dim_Product",
+      "levels" : [ {
+        "name" : "Total",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim_Product.Total"
+      }, {
+        "name" : "BRAND",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim_Product.BRAND",
+        "displayColumn" : "presentationColumn:Sample Sales.Product.BRAND"
+      }, {
+        "name" : "LOB",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim_Product.LOB",
+        "displayColumn" : "presentationColumn:Sample Sales.Product.LOB"
+      }, {
+        "name" : "Type",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim_Product.Type",
+        "displayColumn" : "presentationColumn:Sample Sales.Product.TYPE"
+      }, {
+        "name" : "Detail",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim_Product.Detail",
+        "displayColumn" : "presentationColumn:Sample Sales.Product.PROD_DSC"
+      } ]
+    } ]
+  }
+}

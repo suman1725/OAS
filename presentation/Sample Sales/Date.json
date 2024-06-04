@@ -1,0 +1,181 @@
+{
+  "presentationTable" : {
+    "name" : "Date",
+    "presentationColumns" : [ {
+      "name" : "CALENDAR_DATE",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Cal.CALENDAR_DATE"
+    }, {
+      "name" : "DAY_KEY",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Cal.DAY_KEY"
+    }, {
+      "name" : "CAL_HALF",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Cal.CAL_HALF"
+    }, {
+      "name" : "CAL_MONTH",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Cal.CAL_MONTH"
+    }, {
+      "name" : "CAL_QTR",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Cal.CAL_QTR"
+    }, {
+      "name" : "CAL_WEEK",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Cal.CAL_WEEK"
+    }, {
+      "name" : "CAL_YEAR",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Cal.CAL_YEAR"
+    }, {
+      "name" : "DAY_OF_MONTH",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Cal.DAY_OF_MONTH"
+    }, {
+      "name" : "DAY_OF_WEEK",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Cal.DAY_OF_WEEK"
+    }, {
+      "name" : "DAY_OF_YEAR",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Cal.DAY_OF_YEAR"
+    }, {
+      "name" : "FSCL_HALF",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Cal.FSCL_HALF"
+    }, {
+      "name" : "FSCL_MONTH",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Cal.FSCL_MONTH"
+    }, {
+      "name" : "FSCL_QTR",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Cal.FSCL_QTR"
+    }, {
+      "name" : "FSCL_WEEK",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Cal.FSCL_WEEK"
+    }, {
+      "name" : "FSCL_YEAR",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Cal.FSCL_YEAR"
+    }, {
+      "name" : "JULIAN_DAY_NUM",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Cal.JULIAN_DAY_NUM"
+    }, {
+      "name" : "JULIAN_MONTH_NUM",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Cal.JULIAN_MONTH_NUM"
+    }, {
+      "name" : "JULIAN_QTR_NUM",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Cal.JULIAN_QTR_NUM"
+    }, {
+      "name" : "JULIAN_WEEK_NUM",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Cal.JULIAN_WEEK_NUM"
+    }, {
+      "name" : "PER_NAME_HALF",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Cal.PER_NAME_HALF"
+    }, {
+      "name" : "PER_NAME_MONTH",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Cal.PER_NAME_MONTH"
+    }, {
+      "name" : "PER_NAME_QTR",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Cal.PER_NAME_QTR"
+    }, {
+      "name" : "PER_NAME_WEEK",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Cal.PER_NAME_WEEK"
+    }, {
+      "name" : "PER_NAME_YEAR",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Cal.PER_NAME_YEAR"
+    }, {
+      "name" : "DAYS_IN_QTR",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Cal.DAYS_IN_QTR"
+    }, {
+      "name" : "DAYS_IN_MTH",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Cal.DAYS_IN_MTH"
+    }, {
+      "name" : "BEG_OF_QTR_WID",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Cal.BEG_OF_QTR_WID"
+    }, {
+      "name" : "BEG_OF_MTH_WID",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Cal.BEG_OF_MTH_WID"
+    }, {
+      "name" : "BEG_OF_WEEK_WID",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Cal.BEG_OF_WEEK_WID"
+    }, {
+      "name" : "HOLIDAY",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Cal.HOLIDAY"
+    }, {
+      "name" : "LOADED",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Cal.LOADED"
+    }, {
+      "name" : "CAL_MONTH_END_DATE",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Cal.CAL_MONTH_END_DATE"
+    }, {
+      "name" : "CAL_QTR_END_DATE",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Cal.CAL_QTR_END_DATE"
+    }, {
+      "name" : "CAL_HALF_YEAR_END_DATE",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Cal.CAL_HALF_YEAR_END_DATE"
+    }, {
+      "name" : "CAL_YEAR_END_DATE",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Cal.CAL_YEAR_END_DATE"
+    }, {
+      "name" : "FSCL_MONTH_END_DATE",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Cal.FSCL_MONTH_END_DATE"
+    }, {
+      "name" : "FSCL_QTR_END_DATE",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Cal.FSCL_QTR_END_DATE"
+    }, {
+      "name" : "FSCL_YEAR_END_DATE",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Cal.FSCL_YEAR_END_DATE"
+    }, {
+      "name" : "CAL_WEEK_END_DATE",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Cal.CAL_WEEK_END_DATE"
+    }, {
+      "name" : "FSCL_WEEK_END_DATE",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Cal.FSCL_WEEK_END_DATE"
+    }, {
+      "name" : "DAYS_IN_WEEK",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Cal.DAYS_IN_WEEK"
+    }, {
+      "name" : "DAYS_IN_HALF_YEAR",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Cal.DAYS_IN_HALF_YEAR"
+    }, {
+      "name" : "DAYS_IN_YEAR",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Cal.DAYS_IN_YEAR"
+    }, {
+      "name" : "DAYS_IN_FSCL_WEEK",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Cal.DAYS_IN_FSCL_WEEK"
+    }, {
+      "name" : "DAYS_IN_FSCL_MONTH",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Cal.DAYS_IN_FSCL_MONTH"
+    }, {
+      "name" : "DAYS_IN_FSCL_QTR",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Cal.DAYS_IN_FSCL_QTR"
+    }, {
+      "name" : "DAYS_IN_FSCL_HALF_YEAR",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Cal.DAYS_IN_FSCL_HALF_YEAR"
+    }, {
+      "name" : "DAYS_IN_FSCL_YEAR",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Cal.DAYS_IN_FSCL_YEAR"
+    }, {
+      "name" : "TOTAL_VALUE",
+      "sourceLogicalColumn" : "logicalColumn:Core.Dim_Cal.TOTAL_VALUE"
+    } ],
+    "hierarchies" : [ {
+      "name" : "H1",
+      "sourceLogicalTable" : "logicalTable:Core.Dim_Cal",
+      "levels" : [ {
+        "name" : "Total",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim_Cal.Total"
+      }, {
+        "name" : "Year",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim_Cal.Year",
+        "displayColumn" : "presentationColumn:Sample Sales.Date.CAL_YEAR"
+      }, {
+        "name" : "QTR",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim_Cal.QTR",
+        "displayColumn" : "presentationColumn:Sample Sales.Date.PER_NAME_QTR"
+      }, {
+        "name" : "Month",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim_Cal.Month",
+        "displayColumn" : "presentationColumn:Sample Sales.Date.PER_NAME_MONTH"
+      }, {
+        "name" : "Week",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim_Cal.Week",
+        "displayColumn" : "presentationColumn:Sample Sales.Date.PER_NAME_WEEK"
+      }, {
+        "name" : "Detail",
+        "sourceLogicalLevel" : "logicalLevel:Core.Dim_Cal.Detail",
+        "displayColumn" : "presentationColumn:Sample Sales.Date.CALENDAR_DATE"
+      } ]
+    } ]
+  }
+}

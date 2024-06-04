@@ -1,6 +1,7 @@
 {
   "physicalTable" : {
     "name" : "SAMP_PRODUCTS_D",
+    "description" : "GitHub Test",
     "sourceType" : "TABLE",
     "physicalColumns" : [ {
       "name" : "PROD_KEY",

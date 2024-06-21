@@ -5,7 +5,7 @@
       "name" : "CUST_KEY",
       "sourceLogicalColumn" : "logicalColumn:Core.Dim_Customer.CUST_KEY"
     }, {
-      "name" : "NAME",
+      "name" : "Customer Name",
       "sourceLogicalColumn" : "logicalColumn:Core.Dim_Customer.NAME"
     }, {
       "name" : "TYPE_KEY",
